@@ -1,13 +1,50 @@
-* {
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&family=Young+Serif&display=swap');
+
+:root{
+  --white : hsl(0, 0%, 100%);
+  --background : hsl(30, 54%, 90%);
+  --magenta : hsl(330, 100%, 98%);
+  --magenta-text : hsl(332, 51%, 32%);
+  --important-text : hsl(24, 5%, 18%);
+  --basic-text : hsl(30, 10%, 34%);
+  --brown : hsl(14, 45%, 36%);
+  --whatisit : hsl(30, 18%, 87%);
 }
 
-
-html {
-  /* height: 100%; */
-  /* min-height: 100%; */
+* {
+  box-sizing: border-box;
+  
 }
 
 body {
-  height: 100%;
+  margin: 0;
+  min-height: 100vh;
+  background: var(--background);
+
+  display: flex;
+  justify-content: center;
 }
+
+main {
+  width: 696px;
+  background: white;
+  border-radius: 2%;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.img_box {
+  width: 100%;
+}
+.img_box > img {
+  width: 100%;
+  border-radius: 1%;
+}
+
+
+
+
