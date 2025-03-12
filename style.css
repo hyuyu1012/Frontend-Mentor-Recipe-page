@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&family=Young+Serif&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&family=Young+Serif&display=swap');
+/*
+  Young Serif
+  font-family: "Outfit";
+*/
 
 :root{
   --white : hsl(0, 0%, 100%);
@@ -15,7 +19,6 @@
 
 * {
   box-sizing: border-box;
-  
 }
 
 body {
@@ -37,6 +40,26 @@ main {
   flex-direction: column;
 }
 
+p,li{
+  font-family: "Outfit";
+  font-size: 1rem;
+  font-weight: 200;
+  color: var(--basic-text);
+}
+
+h1 {
+  font-family: "Young Serif";
+  font-size: 2.45rem;
+  font-weight: 100;
+  color: var(--important-text);
+}
+
+h2 {
+  font-family: "Young Serif";
+  font-size: 1.7rem;
+  font-weight: 200;
+}
+
 .img_box {
   width: 100%;
 }
@@ -44,6 +67,40 @@ main {
   width: 100%;
   border-radius: 1%;
 }
+
+.preparation-time {
+  margin-top: 26.264px;
+  padding : 25px;
+  background-color: var(--magenta);
+  border-radius: 3%;
+  
+}
+
+.preparation-time > h3{
+  margin-top: 0;
+  color: var(--magenta-text);
+  font-weight: 900;
+}
+
+.preparation-time > ul {
+  padding-left: 20px;
+  line-height: 2rem;
+  margin-bottom: 0;
+}
+
+.preparation-time > ul > li {
+  padding-left: 20px;
+}
+
+li::marker {
+  color: var(--magenta-text);
+  font-size: 0.9rem;
+}
+
+
+
+
+
 
 
 
