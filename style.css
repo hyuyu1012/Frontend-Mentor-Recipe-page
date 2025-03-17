@@ -52,7 +52,17 @@ h2 {
   font-family: "Young Serif";
   font-size: 1.7rem;
   font-weight: 200;
+  color: var(--brown);
 }
+
+
+hr {
+  margin: 30px 2px;
+  height: 1px;
+  border: 0px;
+  background: var(--whatisit);
+}
+
 
 .img_box {
   width: 100%;
@@ -91,7 +101,32 @@ h2 {
   font-size: 0.9rem;
 }
 
-.ingredients > 
+.ingredients > ul {
+  line-height: 2rem;
+  padding-left: 0px;
+  margin-left: 20px;
+  
+}
+
+.ingredients > ul > li {
+  padding-left: 18px;
+}
+
+
+.ingredients > ul > li::marker{
+  color: var(--brown);
+  font-size: 0.9rem;  
+}
+
+.instructions > ol {
+  color: brown;
+}
+
+.instructions > ol > li {
+  margin-bottom: 10px;
+}
+
+
 
 
 
