@@ -118,12 +118,22 @@ hr {
   font-size: 0.9rem;  
 }
 
+
+
 .instructions > ol {
-  color: brown;
+  padding-left: 25px  ;
 }
 
 .instructions > ol > li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  padding-left: 13px;
+
+}
+
+.instructions > ol > li::marker {
+  color: var(--brown);
+  font-weight: 600;
+  
 }
 
 
