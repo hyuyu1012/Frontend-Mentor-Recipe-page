@@ -118,8 +118,6 @@ hr {
   font-size: 0.9rem;  
 }
 
-
-
 .instructions > ol {
   padding-left: 25px  ;
 }
@@ -132,15 +130,21 @@ hr {
 
 .instructions > ol > li::marker {
   color: var(--brown);
-  font-weight: 600;
-  
+  font-weight: 600;  
 }
 
+.nutrition > hr {
+  margin: 0px;
+}
 
-
-
-
-
-
+.one {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-left: 22px;
+}
+.two {
+  display: inline-block;
+  margin-left : 300px
+}
 
 
