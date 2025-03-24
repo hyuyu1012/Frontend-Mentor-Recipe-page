@@ -63,7 +63,6 @@ hr {
   background: var(--whatisit);
 }
 
-
 .img_box {
   width: 100%;
 }
@@ -112,7 +111,6 @@ hr {
   padding-left: 18px;
 }
 
-
 .ingredients > ul > li::marker{
   color: var(--brown);
   font-size: 0.9rem;  
@@ -133,18 +131,20 @@ hr {
   font-weight: 600;  
 }
 
-.nutrition > hr {
-  margin: 0px;
+table {
+  font-family: "Outfit";
+  font-size : 1.2rem;
+  color: var(--basic-text);
+} 
+
+td {
+  border-bottom: 1px solid var(--whatisit);
+  padding: 10px;
+  margin-right: 0px;
 }
 
-.one {
-  margin-bottom: 0;
-  display: inline-block;
-  margin-left: 22px;
-}
-.two {
-  display: inline-block;
-  margin-left : 300px
+table >tbody> tr > td > span {
+  color: var(--brown);
 }
 
 
