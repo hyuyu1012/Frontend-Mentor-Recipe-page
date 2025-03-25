@@ -10,7 +10,7 @@
   --important-text : hsl(24, 5%, 18%);
   --basic-text : hsl(30, 10%, 34%);
   --brown : hsl(14, 45%, 36%);
-  --whatisit : hsl(30, 18%, 87%);
+  --Light-Beige : hsl(30, 18%, 87%);
 }
 
 * {
@@ -23,6 +23,7 @@ body {
   background: var(--background);
   display: flex;
   justify-content: center;
+  padding: 10% 0;
 }
 
 main {
@@ -46,6 +47,7 @@ h1 {
   font-size: 2.45rem;
   font-weight: 100;
   color: var(--important-text);
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -55,12 +57,11 @@ h2 {
   color: var(--brown);
 }
 
-
 hr {
   margin: 30px 2px;
   height: 1px;
   border: 0px;
-  background: var(--whatisit);
+  background: var(--Light-Beige);
 }
 
 .img_box {
@@ -92,7 +93,7 @@ hr {
 }
 
 .preparation-time > ul > li {
-  padding-left: 20px;
+  padding-left: 18px;
 }
 
 .preparation-time > ul > li::marker {
@@ -133,18 +134,24 @@ hr {
 
 table {
   font-family: "Outfit";
-  font-size : 1.2rem;
+  font-size : 1rem;
+  font-weight : 300;
   color: var(--basic-text);
 } 
 
 td {
-  border-bottom: 1px solid var(--whatisit);
+  border-bottom: 1px solid var(--Light-Beige);
   padding: 10px;
-  margin-right: 0px;
+  padding-left : 30px;
+  padding-right: 200px;
 }
 
 table >tbody> tr > td > span {
   color: var(--brown);
+  font-weight: 600
 }
 
+table > tbody > tr:last-child td{
+  border-bottom: none;
+}
 
