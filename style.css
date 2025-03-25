@@ -7,7 +7,7 @@
   --background : hsl(30, 54%, 90%);
   --magenta : hsl(330, 100%, 98%);
   --magenta-text : hsl(332, 51%, 32%);
-  --important-text : hsl(24, 5%, 18%);
+  --text : hsl(24, 5%, 18%);
   --basic-text : hsl(30, 10%, 34%);
   --brown : hsl(14, 45%, 36%);
   --Light-Beige : hsl(30, 18%, 87%);
@@ -39,14 +39,14 @@ p,li{
   font-family: "Outfit";
   font-size: 1rem;
   font-weight: 200;
-  color: var(--basic-text);
+  color: var(--text);
 }
 
 h1 {
   font-family: "Young Serif";
   font-size: 2.45rem;
   font-weight: 100;
-  color: var(--important-text);
+  color: var(--text);
   margin-bottom: 10px;
 }
 
@@ -136,7 +136,7 @@ table {
   font-family: "Outfit";
   font-size : 1rem;
   font-weight : 300;
-  color: var(--basic-text);
+  color: var(--text);
 } 
 
 td {
